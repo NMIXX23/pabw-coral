@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>StudentCaco</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logostudentcaco2.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <img class="img" style="height: 130px; width: 130px" src="img/logostudentcaco.png" alt="Student'sCaco">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Aktivitas</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="kepanitiaan.php" class="dropdown-item">Kepanitiaan</a>
+                            <a href="subdivisi.php" class="dropdown-item">Lomba</a>
+                            <a href="subdivisi.php" class="dropdown-item">Magang</a>
+                            <a href="organisasi.php" class="dropdown-item">Organisasi</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Beasiswa</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="akademik.php" class="dropdown-item">Akademik</a>
+                            <a href="nonakademik.php" class="dropdown-item">Non Akademik</a>
+                        </div>
+                    </div>
+                    <a href="kontak.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="index.html#search" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Search</a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Header End -->
+        <div class="container-xxl py-5 bg-dark page-header mb-5">
+            <div class="my-5 pt-5 pb-4">
+                <h1 class="display-3 text-white mb-7 animated slideInDown">About Us</h1>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- About Start -->
+        <div id="sc" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">Tentang Student's Caco</h1>
+                        <p class="mb-4">Student's career coach atau yang lebih dikenal dengan Student's Caco adalah platform digital untuk meningkatkan keaktifan mahasiswa khususnya mahasiswa Sekolah Vokasi IPB University dan dikelola oleh BEM SV IPB. Website ini menyediakan informasi terkait beasiswa, organisasi, kepanitiaan, magang, dan perlombaan yang dapat diikuti.</p>
+                        <p class="mb-4">Didirikan pada tanggal 1 Juni 2023, Student's Caco awalnya dibuat untuk memenuhi tugas semester empat mahasiswa program studi Teknologi Rekayasa Perangkat lunak. Student's Caco diharapkan dapat memberikan manfaat dan meningkatkan produktivitas bagi mahasiswa terutama di SV IPB University.</p>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logostudentcaco.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- About Start -->
+        <div id="bem" class="container-xxl py-5">
+            <div class="container">
+                <h1 class="mb-8">Badan Eksekutif Mahasiswa SV IPB University</h1>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logobem.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <p class="mb-4">Rangka Harmoni sebagai organisasi kemahasiswaan tertinggi fakultas Sekolah Vokasi IPB yang bertugas menjalankan fungsi eksekutif.</p>
+                        <p>Visi:</p>
+                        <p><i class="fa fa-check text-primary p-6"></i>Mewujudkan KM Vokasi yang adaptif, unggul, dan harmonis dalam menciptakan Sekolah Vokasi IPB #SemakinJuara</p>
+                        <br>
+                        <p>Misi:</p>
+                        <p><i class="fa fa-check text-primary p-6"></i>Merangkai Pengembangan</p>
+                        <p class="p-7">Membangun hubungan dengan KM Vokasi dalam mengakomodasikan dan memfasilitasi pengembangan minat, bakat, dan keilmuan dalam rangka meningkatkan prestasi KM Vokasi dan Masyarakat.</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Merangkai Kesejahteraan</p>
+                        <p class="p-7">Meningkatkan kualitas pelayanan terhadap KM Vokasi dengan mengadvokasikan pemenuhan hak-hak mahasiswa.</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Merangkai Internalisasi</p>
+                        <p class="p-7">Bergerak dengan terus menjaga keharmonisan di dalam BEM SV IPB untuk kemaslahatan bersama.</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Merangkai Pergerakan</p>
+                        <p class="p-7">Sebagai pengawal yang tanggap dan strategis terhadap isu kebijakan kampus, sosial, dan politik.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h2 class="mb-8">Biro BEM SV IPB</h2>
+                <div class="row g-5 align-items-start">
+                    <div class="col-lg-16 wow fadeIn" data-wow-delay="0.5s">
+                        <h2>BIA</h2>
+                        <h4>Biro Internal dan Audit</h4>
+                        <p class="p-8">Bergerak pada internalisasi untuk terciptanya keharmonisan dan sumber daya manusia berkualitas sehingga dapat tercapainya kinerja BEM SV IPB yang optimal</p>
+                    </div>
+                    <div class="col-lg-16 wow fadeIn" data-wow-delay="0.5s">
+                        <h5>Program Kerja</h5>
+                        <ul>
+                            <li>Inventaris Sekret</li>
+                            <li>Penilaian</li>
+                            <li>Rapat Kabinet</li>
+                            <li>Invite</li>
+                            <li>Ketaatan Peraturan</li>
+                            <li>Pendataan Pelanggaran</li>
+                            <li>Upgrading</li>
+                            <li>Harmoni Play Date</li>
+                            <li>Magang BEM</li>
+                            <li>Ekspresi Berharmoni dan Intu</li>
+                            <li>Dilife</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-13 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logobia.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5 align-items-start">
+                    <div class="col-lg-16 wow fadeIn" data-wow-delay="0.5s">
+                        <h2>EKSTRA</h2>
+                        <h4>Biro Ekonomi dan Strategi</h4>
+                        <p class="p-8">Bergerak dalam bisnis dan kemitraan sebagai salah satu sumber pendanaan pelaksanaan program kerja BEM SV IPB dan membangun relasi terhadap pihak tertentu sebagai bentuk kerja sama</p>
+                    </div>
+                    <div class="col-lg-16 wow fadeIn" data-wow-delay="0.5s">
+                        <h5>Program Kerja</h5>
+                        <ul>
+                            <li>Improvement apacit</li>
+                            <li>Perlengkapan Sarana dan Prasarana</li>
+                            <li>Konten Bisnis</li>
+                            <li>Seminar dan Pelatihan Wirausaha</li>
+                            <li>Bisnis Talk</li>
+                            <li>Atribut Kabinet</li>
+                            <li>Kemitraan</li>
+                            <li>Open Pre-Order</li>
+                            <li>Ekstra Trip</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-13 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logoekstra.png">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row g-5 align-items-start">
+                    <div class="col-lg-16 wow fadeIn" data-wow-delay="0.5s">
+                        <h2>EKRISMED</h2>
+                        <h4>Biro Eksternal, Riset, dan Media</h4>
+                        <p class="p-8">Bergerak menjalin hubungan baik lembaga di luar ormawa Sekolah Vokasi IPB, sebagai media penghubung informasi terhadap pihak eksternal, dan riset dengan berbasis data.</p>
+                    </div>
+                    <div class="col-lg-16 wow fadeIn" data-wow-delay="0.5s">
+                        <h5>Program Kerja</h5>
+                        <ul>
+                            <li>BEM VISION (BEM Vokasi IPB Visit On)</li>
+                            <li>Louder and Louder (LnL)</li>
+                            <li>DISKO (Diskusi Bareng Komunitas)</li>
+                            <li>V-Talks</li>
+                            <li>V-Rate (Random Riset of Month)</li>
+                            <li>V-Super (Super Proker)</li>
+                            <li>V-Start Survey (100 hari kinerja)</li>
+                            <li>V-End Survey (Akhir periode)</li>
+                            <li>Kelas Design</li>
+                            <li>Majalah Digital</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-13 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logoekrismed.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h2 class="mb-8">Departemen BEM SV IPB</h2>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-14 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logopnk.PNG">
+                        </div>
+                    </div>
+                    <div class="col-lg-15 wow fadeIn" data-wow-delay="0.5s">
+                        <h2>P&K</h2>
+                        <h4>Departemen Pendidikan dan Keilmuwan</h4>
+                        <p class="p-8">Departemen yang bergerak untuk meningkatkan prestasi bagi mahasiswa, menjaring prestasi mahasiswa, dan wadah mahasiswa dibidang pendidikan untuk meningkatkan reputasi secara akademik mahasiswa Sekolah Vokasi IPB.</p>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <h5>Program Kerja</h5>
+                        <ul>
+                            <li>Vetion Day</li>
+                            <li>Vospic</li>
+                            <li>Vokapres</li>
+                            <li>Pendataan Prestasi Mahasiswa</li>
+                            <li>Informasi Perlombaan</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-14 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logokominfo.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-15 wow fadeIn" data-wow-delay="0.5s">
+                        <h2>KOMINFO</h2>
+                        <h4>Departemen Komunikasi dan Informasi</h4>
+                        <p class="p-8">Departemen yang menjadi wadah media kreatif bagi untuk mengembangkan minat desain, komunikasi visual, dan penghubung informasi untuk mahasiswa Sekolah Vokasi IPB.</p>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <h5>Program Kerja</h5>
+                        <ul>
+                            <li>Portal 5</li>
+                            <li>Harmoni Talk</li>
+                            <li>Media Center</li>
+                            <li>Youtube BEM SV IPB</li>
+                            <li>Peringatan Hari Besar</li>
+                            <li>Forum Prodi</li>
+                            <li>Ormawa Expo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-14 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logopsdm.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-15 wow fadeIn" data-wow-delay="0.5s">
+                        <h2>PSDM</h2>
+                        <h4>Departemen Pengembangan Sumberdaya Mahasiswa</h4>
+                        <p class="p-8">Departemen yang bergerak pada bidang pengembangan mahasiswa baik secara kepemimpinan, moralitas, etika, SDM yang bergerak pada ilmu pengetahuan dan teknologi serta penggalian potensi, sehingga tercipatnya peningkatan kapabilitas mahasiswa Sekolah Vokasi IPB.</p>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <h5>Program Kerja</h5>
+                        <ul>
+                            <li>KLMM</li>
+                            <li>Forum Pengembangan</li>
+                            <li>Vocational Explore</li>
+                            <li>Development Content</li>
+                            <li>Pendidikan Karya 2023</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-14 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logoorsen.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-15 wow fadeIn" data-wow-delay="0.5s">
+                        <h2>ORSENIBUD</h2>
+                        <h4>Departemen Olahraga dan Seni Budaya</h4>
+                        <p class="p-8">Departemen yang bergerak dalam bidang minat dan bakat mahasiswa dalam bidang olahraga, seni dan budaya serta menggali potensi mahasiswa SV IPB agar menciptakan mahasiswa yang bugar, kuat serta mencintai budaya Indonesia.</p>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <h5>Program Kerja</h5>
+                        <ul>
+                            <li>Olahraga Mahasiswa IPB (OMI)</li>
+                            <li>IPB Art Contest (IAC)</li>
+                            <li>Olahraga Mahasiswa Vokasi (OMVI)</li>
+                            <li>Pekan Seni Budaya (PSB)</li>
+                            <li>College Student Club (CSC)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-14 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logokastrat.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-15 wow fadeIn" data-wow-delay="0.5s">
+                        <h2>KASTRAT</h2>
+                        <h4>Departemen Kajian dan Aksi Strategis</h4>
+                        <p class="p-8">Departemen yang bergerak sebagai wadah untukmemberi kontribusi pemikiran dan aksi nyata pada kebijakan -kebijakan strategis di bidang keahlian,pendidikan, dan sosial politik bagi institusi, lokal,nasional maupun internasional yang bertujuan untukdapat mengambil langkah- langkah strategis dalammasalah yang ada.</p>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <h5>Program Kerja</h5>
+                        <ul>
+                            <li>Gaul Seru Politik</li>
+                            <li>Mahasiswa Anti Korupsi</li>
+                            <li>Ask and Talk About</li>
+                            <li>Sexual Harassment</li>
+                            <li>NOSTALGIA (Nongki bareng Rakyat asal bangun Intelektual)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-14 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logosospem.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-15 wow fadeIn" data-wow-delay="0.5s">
+                        <h2>SOSPEM</h2>
+                        <h4>Departemen Sosial dan Pengabdian Masyarakat</h4>
+                        <p class="p-8">Departemen yang bergerak membangun kesadaran danmeningkatkan kepedualian terhadap isu sosial dan lingkungan, serta membangun kesadaran untuk meningkatkan jiwa pengabdian kepada mahasiswa dalam upaya implementasi Tridharma Perguruan Tinggi poin 3 yaitu Pengabdian kepada Masyarakat.</p>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <h5>Program Kerja</h5>
+                        <ul>
+                            <li>Lomba Inovasi Reforest</li>
+                            <li>Penghijauan</li>
+                            <li>Bulan Berbagi</li>
+                            <li>Kunjungan Panti Asuhan</li>
+                            <li>Bina Desa</li>
+                            <li>Forum Lingkungan</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-14 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 text-start">
+                            <img class="img-fluid width-100" src="img/logoadkesmah.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-15 wow fadeIn" data-wow-delay="0.5s">
+                        <h2>ADKESMAH</h2>
+                        <h4>Departemen Advokasi dan Kesejahteraan Mahasiswa</h4>
+                        <p class="p-8">Departemen yang bergerak untuk mengadvokasikan hak mahasiswa Sekolah Vokasi IPB terkait kesejahteraannya, meliputi akademik, fasilitas, bidang kesehatan, serta menjaring aspirasi mahasiswa terkait fasilitas dan kebijakan kampus.</p>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <h5>Program Kerja</h5>
+                        <ul>
+                            <li>Scholarship for Reach a Dream 2023</li>
+                            <li>V911 (Mental Health)</li>
+                            <li>Megadata</li>
+                            <li>Advokesmah</li>
+                            <li>Mabacare</li>
+                            <li>Vocation Care</li>
+                            <li>Jum'at Barokah</li>
+                            <li>Program Dosen Peduli Mahasiswa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <h1 class="text-center mb-5">Founder Student CACO</h1>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>(sambutan nisi)</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Nisrina Ishmah Mahira</h5>
+                                <small>J0303211111</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>(sambutan naya)</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Kanaya Shabilla</h5>
+                                <small>J0303211155</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>(sambutan cia)</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Allicia Galuh Paramita</h5>
+                                <small>J0303211069</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>(sambutan aisa)</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Aisya Asmaningrum</h5>
+                                <small>J0303211178</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6 mt-0">
+                        <img src="img/logostudentcaco.png" alt="Student CACO" style="width: 80%;">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Student CACO</h5>
+                        <a class="btn btn-link text-white-50" href="about.html#sc">About Us</a>
+                        <a class="btn btn-link text-white-50" href="kontak.html">Contact Us</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link text-white-50" href="akademik.php">Beasiswa Akademik</a>
+                        <a class="btn btn-link text-white-50" href="nonakademik.php">Beasiswa Nonakademik</a>
+                        <a class="btn btn-link text-white-50" href="kepanitiaan.php">Kepanitiaan</a>
+                        <a class="btn btn-link text-white-50" href="lomba.php">Lomba</a>
+                        <a class="btn btn-link text-white-50" href="magang.php">Magang</a>
+                        <a class="btn btn-link text-white-50" href="organisasi.php">Organisasi</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Kontak</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Kumbang No.14, RT.02/RW.06, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+6289624873142</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>kastrat.rangkaiharmoni.bemj@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://instagram.com/bemsvipb"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/bemsvipb"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://youtube.com/@bemsekolahvokasiipb7205"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@bemsvipb.kastrat"><i class="fab bi-tiktok" style="font: bold"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">StudentCACO</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="">Zenition Company</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@1.10.5/font/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
