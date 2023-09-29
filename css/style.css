@@ -423,3 +423,13 @@
     color: white; /* Warna teks pada footer */
     padding: 50px; /* Atur padding sesuai kebutuhan Anda */
 }
+
+.bg-image {
+    background-image: url('/img/image\ 38.png'); /* Ganti 'path/to/your/image.jpg' dengan path ke gambar yang ingin Anda gunakan */
+    background-size: cover; /* Mengatur gambar untuk menutupi seluruh elemen */
+    background-position: center; /* Mengatur posisi gambar ke tengah elemen */
+  }
+
+  .no-margin-right {
+    margin-right: 0;
+  }
